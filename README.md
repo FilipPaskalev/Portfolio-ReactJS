@@ -73,3 +73,23 @@ This script is used to watch for changes in files and automatically rebuild or r
   "watch": "vite --watch"
 }
 ```
+
+## Project structure
+
+The project structure for the Portfolio-ReactJS application is as follows:
+
+- `.vscode`: Directory containing Visual Studio Code configuration files.
+- `node_modules`: Directory containing the installed npm packages.
+- `public`: Directory containing the public assets and static files.
+- `src`: Directory containing the source code of the application.
+- `.eslintrc.cjs`: ESLint configuration file.
+- `.gitignore`: Git ignore file.
+- `CODE_OF_CONDUCT.md`: Code of conduct file.
+- `index.html`: HTML file serving as the entry point of the application.
+- `jest.config.js`: Jest configuration file.
+- `LICENSE`: License file.
+- `package-lock.json`: NPM package lock file.
+- `package.json`: NPM package configuration file.
+- `README.md`: Markdown file containing the project documentation (this file).
+- `SECURITY.md`: Security guidelines file.
+- `vite.config.js`: Vite configuration file.
