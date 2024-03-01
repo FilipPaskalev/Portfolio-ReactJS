@@ -74,9 +74,9 @@ This script is used to watch for changes in files and automatically rebuild or r
 }
 ```
 
-## Project structure
+## Structure
 
-The project structure for the Portfolio-ReactJS application is as follows:
+### Project structure
 
 - `.vscode`: Directory containing Visual Studio Code configuration files.
 - `node_modules`: Directory containing the installed npm packages.
@@ -93,3 +93,5 @@ The project structure for the Portfolio-ReactJS application is as follows:
 - `README.md`: Markdown file containing the project documentation (this file).
 - `SECURITY.md`: Security guidelines file.
 - `vite.config.js`: Vite configuration file.
+
+### App structure
