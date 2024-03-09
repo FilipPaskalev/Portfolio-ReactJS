@@ -1,3 +1,10 @@
+<style>
+r { color: Red }
+o { color: Orange }
+arapawa { color: #160C79 }
+aluminium { color: #A9ACB6 }
+</style>
+
 # Portfolio-ReactJS
 
 ## NPM commands
@@ -95,3 +102,64 @@ This script is used to watch for changes in files and automatically rebuild or r
 - `vite.config.js`: Vite configuration file.
 
 ### App structure
+
+## Resources
+
+### React
+| [Link 1](https://medium.com/@kthamodaran/react-8-best-practices-folder-structure-5dbda48a69e) | 
+[Link 2](https://blog.webdevsimplified.com/2022-07/react-folder-structure/) | 
+[Link 3](https://www.xenonstack.com/insights/reactjs-project-structure) | 
+[Link 4](https://scrimba.com/articles/react-project-structure/) | 
+[Link 5](https://www.w3schools.com/react/react_router.asp) | 
+[Link 6](https://www.youtube.com/watch?v=73XsuajJOkU) | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+
+### <aluminium>CSS</aluminium>
+| [Link 1](https://www.youtube.com/watch?v=PkADl0HubMY) | 
+[Link 2](https://www.youtube.com/watch?v=yefgBA1CecI) | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+[Link 1]() | 
+
+### <aluminium>Tools</aluminium>
+| [Link 1](https://chir.ag/projects/name-that-color) | 
+[Link 2](https://colors.artyclick.com/color-name-finder/) | 
+[Link 2]() | 
+[Link 2]() | 
+[Link 2]() | 
+
+### <aluminium>Readme</aluminium>
+| [Link 1](https://stackoverflow.com/questions/35465557/how-to-apply-color-on-text-in-markdown) | 
+[Link 2](https://docs.document360.com/docs/how-to-change-the-color-of-the-text-in-markdown) | 
+[Link 2]() | 
+[Link 2]() | 
+[Link 2]() | 
+[Link 2]() | 
+[Link 2]() | 
+[Link 2]() | 
