@@ -1,9 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import PageNotFound from "./pages/PageNotFound";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
+import PageNotFound from "./pages/pageNotFound/PageNotFound";
 
 const rootElement = document.getElementById("root");
 
@@ -11,11 +10,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Route>
+        <Route index element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
