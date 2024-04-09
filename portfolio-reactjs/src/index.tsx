@@ -1,5 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Styles
+import "./index.css";
+
+// Pages
 import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 import PageNotFound from "./pages/pageNotFound/PageNotFound";
