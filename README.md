@@ -54,6 +54,10 @@ npm install --save-dev jest @types/jest
 npm install
 ```
 
+## Download and Installation
+
+<!-- TODO -->
+
 ## Recourses
 
 ### Technologies
@@ -74,3 +78,22 @@ npm install
 | Recourse
 | Recourse |
 
+## About
+
+<!-- TODO -->
+
+## Contributions
+
+[Original Bootstrap template](https://github.com/technext/resume-bootstrap4)
+
+## Copyright and License
+
+<!-- TODO -->
+
+### License
+
+<!-- TODO -->
+
+### Copyright
+
+<!-- TODO -->
