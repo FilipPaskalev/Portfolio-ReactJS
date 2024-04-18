@@ -1,0 +1,76 @@
+# Portfolio
+
+
+
+
+## Setting up the project
+
+### Create a new Directory:
+
+```bash
+mkdir portfolio-reactjs
+cd portfolio-reactjs
+```
+
+### Initialize the project with [Vite](https://vitejs.dev/)
+
+```bash
+npm create vite@latest
+```
+> [!NOTE]  
+> In version ```1.0.0``` the project is create at directory ```dev```.
+
+### Install Dependencies
+
+Enter the directory of the NodeJs project:
+
+> [!WARNING] 
+> At this version ```1.0.0``` the project is at directory ```dev```.
+
+```bash
+cd dev
+```
+
+#### Install Bootstrap and React Bootstrap:
+
+```bash
+npm install react-bootstrap bootstrap
+```
+
+#### Install React Router DOM:
+
+```bash
+npm install react-router-dom @types/react-router-dom
+```
+
+#### Install Jest for Testing:
+```
+npm install --save-dev jest @types/jest
+```
+
+#### Install NodeJs
+
+```bash
+npm install
+```
+
+## Recourses
+
+### Technologies
+
+| [React](https://react.dev/)
+| [Vite](https://vitejs.dev/)
+| [React Bootstrap](https://react-bootstrap.netlify.app/)
+| [Bootstrap](https://getbootstrap.com/)
+| [Jest](https://jestjs.io/)
+| [TypeScript](https://www.typescriptlang.org/)
+| [Node.js](https://nodejs.org/en)
+| [JavaScript](https://www.javascript.com/) |
+
+### Markdown
+
+| [Notes](https://github.com/orgs/community/discussions/16925)
+| [Syntax](https://github.com/dipree/github-markdown)
+| Recourse
+| Recourse |
+
