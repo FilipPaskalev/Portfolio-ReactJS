@@ -58,18 +58,32 @@ npm install
 
 <!-- TODO -->
 
+## Design
+
+### Breakpoints
+
+| Breakpoint | Size |
+|------------|------|
+| Extra Small | <576px |
+| Small       | ≥576px  |
+| Medium     | ≥768px  |
+| Large      | ≥992px  |
+| X-Large    | ≥1200px |
+| XX-Large   | ≥1400px |
+
 ## Recourses
 
 ### Technologies
 
-| [React](https://react.dev/)
-| [Vite](https://vitejs.dev/)
-| [React Bootstrap](https://react-bootstrap.netlify.app/)
-| [React Router DOM](https://reactrouter.com/)
-| [Bootstrap](https://getbootstrap.com/)
-| [Jest](https://jestjs.io/)
-| [TypeScript](https://www.typescriptlang.org/)
-| [Node.js](https://nodejs.org/en)
+| [React ```18.2.0```](https://react.dev/)
+| [Vite ```5.2.0```](https://vitejs.dev/)
+| [React Bootstrap ```2.10.2```](https://react-bootstrap.netlify.app/)
+| [React Router ```6.22.3```](https://reactrouter.com/)
+| [Bootstrap ```5.3.3```](https://getbootstrap.com/)
+| [Jest ```29.7.0```](https://jestjs.io/)
+| [TypeScript ```5.2.2```](https://www.typescriptlang.org/)
+| [Node.js ```20.12.2```](https://nodejs.org/en)
+| [Prettier ```3.2.5```](https://prettier.io/)
 | [JavaScript](https://www.javascript.com/) |
 
 ### Markdown
@@ -83,6 +97,16 @@ npm install
 
 | [w3school](https://www.w3schools.com/react/react_router.asp)
 | [How To Create A Navbar In React With Routing](https://www.youtube.com/watch?v=SLfhMt5OUPI)
+| Recourse |
+
+### Bootstrap
+
+| [jsdelivr](https://www.jsdelivr.com/package/npm/react-bootstrap)
+| [Containers](https://getbootstrap.com/docs/5.3/examples/grid/#containers)
+| Recourse
+| Recourse
+| Recourse
+| Recourse
 | Recourse |
 
 ## About
