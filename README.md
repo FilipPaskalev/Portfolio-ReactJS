@@ -65,6 +65,7 @@ npm install
 | [React](https://react.dev/)
 | [Vite](https://vitejs.dev/)
 | [React Bootstrap](https://react-bootstrap.netlify.app/)
+| [React Router DOM](https://reactrouter.com/)
 | [Bootstrap](https://getbootstrap.com/)
 | [Jest](https://jestjs.io/)
 | [TypeScript](https://www.typescriptlang.org/)
@@ -76,6 +77,12 @@ npm install
 | [Notes](https://github.com/orgs/community/discussions/16925)
 | [Syntax](https://github.com/dipree/github-markdown)
 | Recourse
+| Recourse |
+
+### React router
+
+| [w3school](https://www.w3schools.com/react/react_router.asp)
+| [How To Create A Navbar In React With Routing](https://www.youtube.com/watch?v=SLfhMt5OUPI)
 | Recourse |
 
 ## About
