@@ -1,6 +1,6 @@
 # Portfolio
 
-
+<!-- TODO add three -->
 
 
 ## Setting up the project
@@ -56,7 +56,7 @@ npm install
 
 ## Download and Installation
 
-<!-- TODO -->
+<!-- TODO finish the section -->
 
 ## Design
 
@@ -70,6 +70,8 @@ npm install
 | Large      | ≥992px  |
 | X-Large    | ≥1200px |
 | XX-Large   | ≥1400px |
+
+<!-- TODO mansion the original theme -->
 
 ## Recourses
 
@@ -111,7 +113,7 @@ npm install
 
 ## About
 
-<!-- TODO -->
+<!-- TODO write something for about section-->
 
 ## Contributions
 
@@ -123,7 +125,12 @@ npm install
 
 ### License
 
+### MIT
 <!-- TODO -->
+
+### FLATICON
+
+You can find the license of the icon here: [TODO - link](add link here). License number ```license-145738580-1253797```
 
 ### Copyright
 
