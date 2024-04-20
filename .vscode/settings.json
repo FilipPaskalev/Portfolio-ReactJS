@@ -7,6 +7,9 @@
     "reactjs",
     "Vite",
     "Offcanvas",
-    "color"
+    "color",
+    "fortawesome",
+    "scrollspy",
+    "fontawesome"
   ]
 }
