@@ -105,7 +105,30 @@ npm install
 
 | [jsdelivr](https://www.jsdelivr.com/package/npm/react-bootstrap)
 | [Containers](https://getbootstrap.com/docs/5.3/examples/grid/#containers)
+| [React Bootstrap Offcanvas Component](https://www.youtube.com/watch?v=Xm7w1NHQCB4)
+| [Offcanvas](https://getbootstrap.com/docs/5.0/components/offcanvas/)
+| [Background color](https://getbootstrap.com/docs/4.1/utilities/colors/)
 | Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse |
+
+### TypeScript
+
+| [Typing Component Props](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
+| [Typing defaultProps](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/default_props)
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse |
+
+### Articles
+
+| [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
 | Recourse
 | Recourse
 | Recourse

@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import CustomNav from "../../components/customNav/CustomNav";
+import Navigator from "../../components/navigator/Navigator";
 
 const Home = () => {
   return (
     <Container>
-      <CustomNav />
+      <Navigator />
       <h1>Home</h1>
     </Container>
   );

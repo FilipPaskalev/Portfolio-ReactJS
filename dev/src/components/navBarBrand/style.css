@@ -1,0 +1,9 @@
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
