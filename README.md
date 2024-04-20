@@ -129,7 +129,7 @@ npm install
 ### Articles
 
 | [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
-| Recourse
+| [How to format international telephone numbers](https://www.cm.com/en-gb/blog/how-to-format-international-telephone-numbers/#:~:text=The%20UK%20mobile%20phone%20number,all%20characters%20should%20be%20numeric.)
 | Recourse
 | Recourse
 | Recourse |

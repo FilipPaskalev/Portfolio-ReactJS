@@ -3,26 +3,14 @@ import '../../../styles.css';
 // Component styles
 import './navigation.css';
 // Data
-import userInfoData from '../../data/userInfo.json';
+import userInfo from '../../data/userInfo.json';
 // Assets
 import avatar from '../../assets/avatar.png';
-
-type UserInfoTypes = {
-  firstName: string;
-  lastName: string;
-  nickName: string;
-  email: string;
-  phoneNumber: string;
-  city: string;
-  country: string;
-  linkedIn: string;
-  facebook: string;
-  twitter: string;
-  github: string;
-};
+// Types
+import { TypeUserInfo } from '../../types/TypeUserInfo';
 
 const Navigation = () => {
-  const { firstName, lastName } = userInfoData as UserInfoTypes;
+  const { firstName, lastName } = userInfo as TypeUserInfo;
 
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-primary fixed-top' id='sideNav'>
