@@ -1,11 +1,11 @@
 // Global styles
-import '../../../styles.css';
+import '../../../global-styles.css';
 // Component styles
 import './about.css';
 // Data
 import userInfo from '../../data/userInfo.json';
 // Types
-import { TypeUserInfo } from '../../types/TypeUserInfo';
+import TypeUserInfo from '../../types/TypeUserInfo';
 
 const About = () => {
   const {

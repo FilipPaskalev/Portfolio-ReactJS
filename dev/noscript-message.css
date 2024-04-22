@@ -1,0 +1,22 @@
+.noscript-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.noscript-message p {
+  margin: 0 0 10px 0;
+}
+
+.noscript-message ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.noscript-message ol {
+  margin-top: 0;
+}

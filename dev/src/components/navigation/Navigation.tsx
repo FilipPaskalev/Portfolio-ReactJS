@@ -1,72 +1,54 @@
-// Global styles
-import '../../../styles.css';
-// Component styles
-import './navigation.css';
-// Data
-import userInfo from '../../data/userInfo.json';
-// Assets
-import avatar from '../../assets/avatar.png';
-// Types
-import { TypeUserInfo } from '../../types/TypeUserInfo';
+import { Nav, Navbar } from 'react-bootstrap'; // React Bootstrap components
+import '../../../global-styles.css'; // Global styles
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import Font Awesome icons
+import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons'; // Import Font Awesome icons
+import './navigation.css'; // Component styles
+import userInfo from '../../data/userInfo.json'; // Data
+import avatar from '../../assets/avatar.png'; // Assets
+import TypeUserInfo from '../../types/TypeUserInfo'; // Types
 
 const Navigation = () => {
   const { firstName, lastName } = userInfo as TypeUserInfo;
 
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-primary fixed-top' id='sideNav'>
-      <a className='navbar-brand js-scroll-trigger' href='#page-top'>
+    <Navbar expand='lg' bg='primary' variant='dark' fixed='top' id='sideNav'>
+      <Navbar.Brand>
         <span className='d-block d-lg-none'>
           {firstName} {lastName}
         </span>
         <span className='d-none d-lg-block'>
-          <img className='img-fluid img-profile rounded-circle mx-auto mb-2' src={avatar} alt='profile avatar' />
+          <img
+            className='img-fluid img-profile rounded-circle mx-auto mb-2'
+            src={avatar}
+            alt='profile avatar'
+          />
         </span>
-      </a>
-      <button
-        className='navbar-toggler'
-        type='button'
-        data-bs-toggle='collapse'
-        data-bs-target='#navbarResponsive'
-        aria-controls='navbarResponsive'
-        aria-expanded='false'
-        aria-label='Toggle navigation'>
-        <span className='navbar-toggler-icon'></span>
-      </button>
-      <div className='collapse navbar-collapse' id='navbarResponsive'>
-        <ul className='navbar-nav'>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#about'>
-              About
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#experience'>
-              Experience
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#education'>
-              Education
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#skills'>
-              Skills
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#interests'>
-              Interests
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link js-scroll-trigger' href='#awards'>
-              Awards
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls='navbarResponsive' />
+      <Navbar.Collapse id='navbarResponsive'>
+        <Nav className='navbar-nav'>
+          <Nav.Link href='#about' className='nav-link'>
+            About
+          </Nav.Link>
+          <Nav.Link href='#experience' className='nav-link'>
+            Experience
+          </Nav.Link>
+          <Nav.Link href='#education' className='nav-link'>
+            Education
+          </Nav.Link>
+          <Nav.Link href='#skills' className='nav-link'>
+            Skills
+          </Nav.Link>
+          <Nav.Link href='#interests' className='nav-link'>
+            Interests
+          </Nav.Link>
+          <Nav.Link href='#awards' className='nav-link'>
+            Awards
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
