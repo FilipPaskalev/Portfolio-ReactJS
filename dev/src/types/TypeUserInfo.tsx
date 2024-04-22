@@ -1,4 +1,4 @@
-export type TypeUserInfo = {
+type TypeUserInfo = {
   firstName: string;
   lastName: string;
   nickName: string;
@@ -11,3 +11,5 @@ export type TypeUserInfo = {
   twitter: string;
   github: string;
 };
+
+export default TypeUserInfo;
