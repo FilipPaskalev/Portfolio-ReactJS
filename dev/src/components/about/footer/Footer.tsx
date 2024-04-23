@@ -1,8 +1,10 @@
 // Utils
-import userInfo from '../../data/userInfo.json';
-import TypeUserInfo from '../../types/TypeUserInfo';
+import userInfo from '../../../data/userInfo.json';
+import TypeUserInfo from '../../../types/TypeUserInfo';
+// Styles
+import './footer.css';
 
-const AboutFooter = () => {
+const Footer = () => {
   const { linkedIn, facebook, twitter, github } = userInfo as TypeUserInfo;
 
   return (
@@ -23,4 +25,4 @@ const AboutFooter = () => {
   );
 };
 
-export default AboutFooter;
+export default Footer;

@@ -1,8 +1,10 @@
 // Utils
-import userInfo from '../../data/userInfo.json';
-import TypeUserInfo from '../../types/TypeUserInfo';
+import userInfo from '../../../data/userInfo.json';
+import TypeUserInfo from '../../../types/TypeUserInfo';
+// Styles
+import './header.css';
 
-const AboutHeader = () => {
+const Header = () => {
   const { firstName, lastName } = userInfo as TypeUserInfo;
 
   return (
@@ -13,4 +15,4 @@ const AboutHeader = () => {
   );
 };
 
-export default AboutHeader;
+export default Header;
