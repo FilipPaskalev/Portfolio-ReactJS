@@ -19,7 +19,7 @@ const Navigation = () => {
 
   const renderAvatar = isSmallerThanLG && (
     <img
-      className='img-fluid img-profile rounded-circle mx-auto mb-2 border border-primary top-nav-avatar-img'
+      className='img-fluid img-profile rounded-circle mx-auto mb-2 top-nav-avatar-img'
       src={avatar}
       alt='profile avatar'
     />
