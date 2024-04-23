@@ -2,6 +2,9 @@
 import './body.css';
 // Utils
 import data from '../../../data/sectionsData.json';
+
+// TODOs: add animation to icons
+// TODOs: add animation to header text || icon || both
 const Body = () => {
   return (
     <>
