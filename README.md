@@ -128,8 +128,8 @@ npm install
 
 ### HTML
 
-| [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-| Recourse
+| [<footer>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+| [<address>](https://www.codecademy.com/resources/docs/html/semantic-html/address)
 | Recourse
 | Recourse
 | Recourse |
