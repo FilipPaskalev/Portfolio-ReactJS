@@ -6,6 +6,7 @@ import './sub-header.css';
 // TODOs: add icons to location, phone, email
 
 const SubHeader = () => {
+  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
   const { email, phoneNumber, city, country } = userInfo as TypeUserInfo;
 
   return (

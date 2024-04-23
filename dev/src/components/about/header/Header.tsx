@@ -5,6 +5,7 @@ import TypeUserInfo from '../../../types/TypeUserInfo';
 import './header.css';
 
 const Header = () => {
+  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
   const { firstName, lastName } = userInfo as TypeUserInfo;
 
   return (

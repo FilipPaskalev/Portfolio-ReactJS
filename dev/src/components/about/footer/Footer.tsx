@@ -5,6 +5,7 @@ import TypeUserInfo from '../../../types/TypeUserInfo';
 import './footer.css';
 
 const Footer = () => {
+  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
   const { linkedIn, facebook, twitter, github } = userInfo as TypeUserInfo;
 
   return (

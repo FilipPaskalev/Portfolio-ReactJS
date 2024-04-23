@@ -1,6 +1,11 @@
 {
-  "about": {
-    "header": "Filip Paskalev",
+  "aboutSection": {
+    "header": {
+      "firstName": "Filip",
+      "lastName": "Paskalev",
+      "email": "paskalevfilip@gmail.com",
+      "phoneNumber": "+447882146424"
+    },
     "subheader": {
       "address": {
         "city": "Birmingham",
@@ -24,7 +29,7 @@
     ]
   },
   "experience:": {
-    "title": "Experience"
+    "header": "Experience"
   },
   "education": {
     "title": "Education"
