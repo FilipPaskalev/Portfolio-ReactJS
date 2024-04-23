@@ -1,10 +1,10 @@
 enum EnumBootstrapBreakpoints {
-  xs = 0,
-  sm = 576,
-  md = 768,
-  lg = 992,
-  xl = 1200,
-  xxl = 1400,
+  XS = 0,
+  SM = 576,
+  MD = 768,
+  LG = 992,
+  XL = 1200,
+  XXL = 1400,
 }
 
 export default EnumBootstrapBreakpoints;
