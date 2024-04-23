@@ -23,7 +23,7 @@ const About = () => {
     twitter,
     github,
   } = userInfo as TypeUserInfo;
-  const formattedPhoneNumber: string = `+44 ${phoneNumber.slice(3, 7)} ${phoneNumber.slice(7, 13)}`;
+  const textSeparator: string = ' · ';
 
   return (
     <section className='resume-section' id='about'>
@@ -34,16 +34,23 @@ const About = () => {
               {firstName}
               <span className='text-primary'>{lastName}</span>
             </h1>
-            <div className='subheading mb-5'>
-              {city} · {country} · <a href={`tel:${phoneNumber}`}>{formattedPhoneNumber}</a> ·{' '}
+            <hgroup className='subheading mb-5'>
+              {city}
+              {textSeparator}
+              {country}
+              {textSeparator}
+              <a href={`tel:${phoneNumber}`} className='text-decoration-none'>
+                {`+44 ${phoneNumber.slice(3, 7)} ${phoneNumber.slice(7, 13)}`}
+                {textSeparator}
+              </a>
               <a href={`mailto:${email}`}>{email}</a>
-            </div>
+            </hgroup>
             <p className='lead mb-5'>
               I am experienced in leveraging agile frameworks to provide a robust synopsis for high
               level overviews. Iterative approaches to corporate strategy foster collaborative
               thinking to further the overall value proposition.
             </p>
-            <div className='social-icons'>
+            <section className='social-icons'>
               <a className='social-icon' href={linkedIn} target='_blank'>
                 <i className='fab fa-linkedin-in'></i>
               </a>
@@ -56,7 +63,7 @@ const About = () => {
               <a className='social-icon' href={facebook} target='_blank'>
                 <i className='fab fa-facebook-f'></i>
               </a>
-            </div>
+            </section>
           </Col>
         </Row>
       </Container>
