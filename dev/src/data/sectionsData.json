@@ -1,9 +1,28 @@
 {
   "about": {
-    "title": "Who am I?",
-    "subtitle": "Connection information",
-    "description": "I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
-    "socialLinks": []
+    "header": "Filip Paskalev",
+    "subheader": {
+      "address": {
+        "city": "Birmingham",
+        "country": "United Kingdom"
+      },
+      "phone": "+447882146424",
+      "email": "paskalevfilip@gmail"
+    },
+    "body": {
+      "header": "👋 Hey there!",
+      "paragraphs": [
+        "I'm Phil, a passionate developer diving into coding! 💻 Fueled by a love for crafting projects and mastering tech, my journey in software development is just beginning, but my enthusiasm knows no bounds! 🚀",
+        "Let's innovate, build, and make a difference! 🔥 With a relentless drive to learn and grow, I'm excited to connect with like-minded individuals and contribute to the ever-evolving world of technology.",
+        "Together, let's create something incredible! 🌟"
+      ]
+    },
+    "footer": [
+      { "linkedIn": { "link": "https://www.linkedin.com/in/paskalevfilip/" } },
+      { "github": { "link": "https://github.com/FilipPaskalev" } },
+      { "twitter": { "link": "https://twitter.com/" } },
+      { "facebook": { "link": "https://www.facebook.com/" } }
+    ]
   },
   "experience:": {
     "title": "Experience"

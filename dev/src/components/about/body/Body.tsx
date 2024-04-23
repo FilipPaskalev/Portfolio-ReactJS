@@ -1,12 +1,15 @@
 //Styles
 import './body.css';
+// Utils
+import data from '../../../data/sectionsData.json';
 const Body = () => {
   return (
-    <p className='lead mb-5'>
-      I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
-      overviews. Iterative approaches to corporate strategy foster collaborative thinking to
-      further the overall value proposition.
-    </p>
+    <>
+      <h2>{data.about.body.header}</h2>
+      {data.about.body.paragraphs.map((text) => (
+        <p className='lead mb-5'>{text}</p>
+      ))}
+    </>
   );
 };
 
