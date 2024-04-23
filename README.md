@@ -126,6 +126,15 @@ npm install
 | Recourse
 | Recourse |
 
+### HTML
+
+| [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+| Recourse
+| Recourse
+| Recourse
+| Recourse |
+
+
 ### Articles
 
 | [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
