@@ -9,8 +9,10 @@ const Body = () => {
   return (
     <>
       <h2>{data.about.body.header}</h2>
-      {data.about.body.paragraphs.map((text) => (
-        <p className='lead mb-5'>{text}</p>
+      {data.about.body.paragraphs.map((text, index) => (
+        <p className='lead mb-5' key={index}>
+          {text}
+        </p>
       ))}
     </>
   );
