@@ -108,7 +108,7 @@ npm install
 | [React Bootstrap Offcanvas Component](https://www.youtube.com/watch?v=Xm7w1NHQCB4)
 | [Offcanvas](https://getbootstrap.com/docs/5.0/components/offcanvas/)
 | [Background color](https://getbootstrap.com/docs/4.1/utilities/colors/)
-| Recourse
+| [Bootstrap 5 Utilities](https://www.w3schools.com/bootstrap5/bootstrap_utilities.php)
 | Recourse
 | Recourse
 | Recourse

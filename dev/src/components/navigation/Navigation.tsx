@@ -17,14 +17,6 @@ const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
   const isSmallerThanLG = window.innerWidth < EnumBootstrapBreakpoints.LG;
 
-  const renderAvatar = isSmallerThanLG && (
-    <img
-      className='img-fluid img-profile rounded-circle mx-auto mb-2 top-nav-avatar-img'
-      src={avatar}
-      alt='profile avatar'
-    />
-  );
-
   const handleNavbarToggle = () => {
     setExpanded(!expanded);
   };
@@ -33,6 +25,13 @@ const Navigation = () => {
     setExpanded(false);
   };
 
+  const renderAvatar = isSmallerThanLG && (
+    <img
+      className='img-fluid img-profile rounded-circle mx-auto mb-2 top-nav-avatar-img'
+      src={avatar}
+      alt='profile avatar'
+    />
+  );
   return (
     <Navbar
       expand='md'
