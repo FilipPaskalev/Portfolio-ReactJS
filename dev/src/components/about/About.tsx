@@ -14,9 +14,6 @@ import Footer from './footer/Footer';
 // Utils
 import DATA from '../../data/sectionsData.json';
 
-//TODO: REFACTOR - get data for sectionData.json
-//TODO: REFACTOR - replace TypeUserinfo & add Type file to component folder
-//TODO: REFACTOR - pass the data to components as props, so every component doing just one thing with the data that received from the parent
 const About = () => {
   const { header, subHeader, body, footer } = DATA.aboutSection;
 
@@ -31,8 +28,8 @@ const About = () => {
             phoneNumber={subHeader.phoneNumber}
             address={subHeader.address}
           />
-          <Body />
-          <Footer />
+          <Body header={body.header} paragraphs={body.paragraphs} />
+          <Footer icons={footer.icons} />
         </Row>
       </Container>
     </section>

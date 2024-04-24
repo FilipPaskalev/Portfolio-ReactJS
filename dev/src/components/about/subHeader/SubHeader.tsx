@@ -1,7 +1,7 @@
 //Styles
 import './sub-header.css';
 
-interface InterfaceSubHeaderProps {
+interface ISubHeaderProps {
   email: string;
   phoneNumber: string;
   address: {
@@ -11,7 +11,7 @@ interface InterfaceSubHeaderProps {
 }
 
 // TODOs: add icons to location, phone, email
-const SubHeader = (props: InterfaceSubHeaderProps) => {
+const SubHeader = (props: ISubHeaderProps) => {
   const email = props.email.toUpperCase();
   const phoneNumber = props.phoneNumber;
   const phoneNumberFormatted = `+44 ${phoneNumber.slice(3, 7).toLocaleUpperCase()} ${phoneNumber.slice(7, 13).toLocaleUpperCase()}`;

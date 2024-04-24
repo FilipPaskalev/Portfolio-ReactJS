@@ -19,12 +19,34 @@
         "Let's innovate, build, and make a difference! 🔥"
       ]
     },
-    "footer": [
-      { "linkedIn": { "link": "https://www.linkedin.com/in/paskalevfilip/" } },
-      { "github": { "link": "https://github.com/FilipPaskalev" } },
-      { "twitter": { "link": "https://twitter.com/" } },
-      { "facebook": { "link": "https://www.facebook.com/" } }
-    ]
+    "footer": {
+      "icons": [
+        {
+          "text": "LinkedIn",
+          "link": "https://www.linkedin.com/in/paskalevfilip/",
+          "icon": "fab fa-linkedin-in",
+          "target": "_blank"
+        },
+        {
+          "text": "GitHub",
+          "link": "https://github.com/FilipPaskalev",
+          "icon": "fab fa-github",
+          "target": "_blank"
+        },
+        {
+          "text": "Twitter",
+          "link": "https://twitter.com/",
+          "icon": "fab fa-twitter",
+          "target": "_blank"
+        },
+        {
+          "text": "Facebook",
+          "link": "https://www.facebook.com/",
+          "icon": "fab fa-facebook-f",
+          "target": "_blank"
+        }
+      ]
+    }
   },
   "experience:": {
     "header": "Experience"

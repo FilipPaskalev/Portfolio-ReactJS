@@ -1,12 +1,12 @@
 // Styles
 import './header.css';
 
-interface HeaderProps {
+interface IHeaderProps {
   firstName: string;
   lastName: string;
 }
 
-const Header = (props: HeaderProps) => {
+const Header = (props: IHeaderProps) => {
   return (
     <h1 className='mb-0'>
       {props.firstName}

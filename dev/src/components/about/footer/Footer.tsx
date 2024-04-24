@@ -1,27 +1,25 @@
-// Utils
-import userInfo from '../../../data/userInfo.json';
-import TypeUserInfo from '../../../types/TypeUserInfo';
 // Styles
 import './footer.css';
 
-const Footer = () => {
-  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
-  const { linkedIn, facebook, twitter, github } = userInfo as TypeUserInfo;
+type TIcons = {
+  text: string;
+  link: string;
+  icon: string;
+  target: string;
+};
 
+interface IFooterProps {
+  icons: TIcons[];
+}
+
+const Footer = (props: IFooterProps) => {
   return (
     <footer className='social-icons'>
-      <a className='social-icon' href={linkedIn} target='_blank'>
-        <i className='fab fa-linkedin-in'></i>
-      </a>
-      <a className='social-icon' href={github} target='_blank'>
-        <i className='fab fa-github'></i>
-      </a>
-      <a className='social-icon' href={twitter} target='_blank'>
-        <i className='fab fa-twitter'></i>
-      </a>
-      <a className='social-icon' href={facebook} target='_blank'>
-        <i className='fab fa-facebook-f'></i>
-      </a>
+      {props.icons.map((icon, index) => (
+        <a className='social-icon' href={icon.link} target={icon.target} key={index}>
+          <i className={icon.icon}></i>
+        </a>
+      ))}
     </footer>
   );
 };
