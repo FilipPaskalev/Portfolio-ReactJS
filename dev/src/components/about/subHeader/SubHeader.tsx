@@ -1,21 +1,31 @@
-// Utils
-import userInfo from '../../../data/userInfo.json';
-import TypeUserInfo from '../../../types/TypeUserInfo';
 //Styles
 import './sub-header.css';
-// TODOs: add icons to location, phone, email
 
-const SubHeader = () => {
-  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
-  const { email, phoneNumber, city, country } = userInfo as TypeUserInfo;
+interface InterfaceSubHeaderProps {
+  email: string;
+  phoneNumber: string;
+  address: {
+    city: string;
+    country: string;
+  };
+}
+
+// TODOs: add icons to location, phone, email
+const SubHeader = (props: InterfaceSubHeaderProps) => {
+  const email = props.email.toUpperCase();
+  const phoneNumber = props.phoneNumber;
+  const phoneNumberFormatted = `+44 ${phoneNumber.slice(3, 7).toLocaleUpperCase()} ${phoneNumber.slice(7, 13).toLocaleUpperCase()}`;
+  const city = props.address.city.toUpperCase();
+  const country = props.address.country.toUpperCase();
 
   return (
     <hgroup className='mb-5'>
-      <address>{`${city.toLocaleUpperCase()} · ${country.toLocaleUpperCase()}`}</address>
+      <address>{`${city} · ${country}`}</address>
       <a href={`tel:${phoneNumber}`}>
-        {`+44 ${phoneNumber.slice(3, 7).toLocaleUpperCase()} ${phoneNumber.slice(7, 13).toLocaleUpperCase()} · `}
+        {phoneNumberFormatted}
+        {' · '}
       </a>
-      <a href={`mailto:${email}`}>{email.toLocaleUpperCase()}</a>
+      <a href={`mailto:${props.email}`}>{email}</a>
     </hgroup>
   );
 };

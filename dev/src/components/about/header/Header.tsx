@@ -1,17 +1,16 @@
-// Utils
-import userInfo from '../../../data/userInfo.json';
-import TypeUserInfo from '../../../types/TypeUserInfo';
 // Styles
 import './header.css';
 
-const Header = () => {
-  // TODO: REFACTOR - get data for sectionData.json & replace TypeUserinfo & add Type file to component folder
-  const { firstName, lastName } = userInfo as TypeUserInfo;
+interface HeaderProps {
+  firstName: string;
+  lastName: string;
+}
 
+const Header = (props: HeaderProps) => {
   return (
     <h1 className='mb-0'>
-      {firstName}
-      <span className='text-primary'>{lastName}</span>
+      {props.firstName}
+      <span className='text-primary'>{props.lastName}</span>
     </h1>
   );
 };

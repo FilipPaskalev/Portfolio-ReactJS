@@ -167,3 +167,4 @@ You can find the license of the icon here: [TODO - link](add link here). License
 ### Copyright
 
 <!-- TODO -->
+Copyright TODO: ADD TEXT. Code released under the [MIT](TODO add link) license.

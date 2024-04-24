@@ -2,17 +2,15 @@
   "aboutSection": {
     "header": {
       "firstName": "Filip",
-      "lastName": "Paskalev",
-      "email": "paskalevfilip@gmail.com",
-      "phoneNumber": "+447882146424"
+      "lastName": "Paskalev"
     },
-    "subheader": {
+    "subHeader": {
+      "email": "paskalevfilip@gmail.com",
+      "phoneNumber": "+447882146424",
       "address": {
         "city": "Birmingham",
         "country": "United Kingdom"
-      },
-      "phone": "+447882146424",
-      "email": "paskalevfilip@gmail"
+      }
     },
     "body": {
       "header": "👋 Hey there!",
