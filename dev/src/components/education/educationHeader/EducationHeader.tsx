@@ -1,3 +1,5 @@
+import './education-header.css';
+
 interface IEducationHeaderProps {
   title: string;
 }

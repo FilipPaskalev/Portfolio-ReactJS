@@ -109,8 +109,8 @@ npm install
 | [Offcanvas](https://getbootstrap.com/docs/5.0/components/offcanvas/)
 | [Background color](https://getbootstrap.com/docs/4.1/utilities/colors/)
 | [Bootstrap 5 Utilities](https://www.w3schools.com/bootstrap5/bootstrap_utilities.php)
-| Recourse
-| Recourse
+| [Tooltips 1](https://www.w3schools.com/bootstrap5/bootstrap_tooltip.php)
+| [Tooltips 2](https://getbootstrap.com/docs/5.0/components/tooltips/)
 | Recourse
 | Recourse
 | Recourse

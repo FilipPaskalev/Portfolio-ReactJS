@@ -1,4 +1,5 @@
 import Row from 'react-bootstrap/Row';
+import './education.css';
 //Components
 import EducationHeader from './educationHeader/EducationHeader';
 import EducationCard from './educationCard/EducationCard';
@@ -15,7 +16,7 @@ const Education = () => {
         {education.map((education, index) => (
           <EducationCard
             key={index}
-            institute={education.institute}
+            Institution={education.Institution}
             level={education.level}
             subject={education.subject}
             description={education.description}

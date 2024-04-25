@@ -87,7 +87,7 @@
     "title": "education",
     "education": [
       {
-        "institute": "University of Colorado Boulder",
+        "Institution": "University of Colorado Boulder",
         "level": "Bachelor of Science",
         "subject": "Computer Science - Web Development Track",
         "description": "Some description here",
@@ -96,7 +96,7 @@
         "endDate": "May 2010"
       },
       {
-        "institute": "James Buchanan School",
+        "Institution": "James Buchanan School",
         "level": "High School",
         "subject": "Technology Magnet Program",
         "description": "Some description here",
