@@ -128,8 +128,8 @@ npm install
 
 ### HTML
 
-| [<footer>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-| [<address>](https://www.codecademy.com/resources/docs/html/semantic-html/address)
+| [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+| [address](https://www.codecademy.com/resources/docs/html/semantic-html/address)
 | Recourse
 | Recourse
 | Recourse |
@@ -144,8 +144,27 @@ npm install
 | Recourse |
 
 ## About
-
 <!-- TODO write something for about section-->
+
+### Version 1.0.0
+
+#### Information
+- Initial version and release
+- Add TypeScript to the project
+- Add React Bootstrap to the project
+- Refactor the project to Bootstrap 5
+
+#### About Me section (page)
+- Refactor the About section in components
+- Received the data for the section from JSON file in main component
+- All received data has Types and Interfaces
+- Add semantic HTML
+- CSS files are separate for every component
+- Add header, sub header, footer section
+- Text can be rendered dynamically (received from JSON file) 
+- Add icons to the footer section dynamically ( received from JSON file)
+- Add tooltip to all icons in footer
+
 
 ## Contributions
 

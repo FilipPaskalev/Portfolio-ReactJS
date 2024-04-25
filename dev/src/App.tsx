@@ -1,6 +1,6 @@
 // Components
 import Navigation from './components/navigation/Navigation';
-import About from './components/about/About';
+import AboutMe from './components/about/AboutMe';
 import Experience from './components/experience/Experience';
 import Education from './components/education/Education';
 import Skills from './components/skills/Skills';
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <About />
+      <AboutMe />
       <Experience />
       <Education />
       <Skills />
