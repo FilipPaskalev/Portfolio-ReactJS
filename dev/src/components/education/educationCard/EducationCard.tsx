@@ -6,18 +6,29 @@ import EducationCardSubHeader from '../educationCardSubHeader/EducationCardSubHe
 import EducationCardBody from '../educationCardBody/EducationCardBody';
 import EducationCardFooter from '../educationCardFooter/EducationCardFooter';
 
-const EducationCard = () => {
+interface IEducationCardProps {
+  Institution: string;
+  level: string;
+  subject: string;
+  description: string;
+  grade: string;
+  startDate: string;
+  endDate: string;
+}
+
+const EducationCard = (props: IEducationCardProps) => {
   return (
     <article className='d-flex flex-column flex-md-row justify-content-between mb-5'>
       <hgroup className='flex-grow-1'>
-        <EducationCardHeader Institution='University of Colorado Boulder' />
-        <EducationCardSubHeader level='Bachelor of Science' />
+        <EducationCardHeader Institution={props.Institution} />
+        <EducationCardSubHeader level={props.level} />
       </hgroup>
-      <EducationCardBody
-        subject='Computer Science - Web Development Track'
-        description='Some description here'
+      <EducationCardBody subject={props.subject} description={props.description} />
+      <EducationCardFooter
+        grade={props.grade}
+        startDate={props.startDate}
+        endDate={props.endDate}
       />
-      <EducationCardFooter grade='GPA 3.23' startDate='August 2006' endDate='May 2010' />
     </article>
   );
 };

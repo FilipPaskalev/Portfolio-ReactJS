@@ -2,9 +2,7 @@ interface IEducationCardHeaderProps {
   Institution: string;
 }
 const EducationCardHeader = (props: IEducationCardHeaderProps) => {
-  const title = props.Institution.toUpperCase();
-
-  return <h3 className='mb-0'>{title}</h3>;
+  return <h3 className='mb-0'>{props.Institution.toUpperCase()}</h3>;
 };
 
 export default EducationCardHeader;

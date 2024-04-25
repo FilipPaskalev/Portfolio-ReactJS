@@ -7,13 +7,11 @@ import EducationCard from './educationCard/EducationCard';
 import DATA from '../../data/sectionsData.json';
 
 const Education = () => {
-  const { title, education } = DATA.educationSection;
-
   return (
     <section className='resume-section' id='education'>
       <Row className='resume-section-content'>
-        <EducationHeader title={title} />
-        {education.map((education, index) => (
+        <EducationHeader title={DATA.educationSection.title} />
+        {DATA.educationSection.education.map((education, index) => (
           <EducationCard
             key={index}
             Institution={education.Institution}
