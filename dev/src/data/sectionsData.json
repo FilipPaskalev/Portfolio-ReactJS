@@ -84,39 +84,25 @@
   },
 
   "educationSection": {
-    "title": "Education",
+    "title": "education",
     "education": [
       {
-        "place": "example",
-        "type": "example",
-        "description": "example",
-        "grade": "example",
-        "startDate": "example",
-        "endDate": "example"
+        "institute": "University of Colorado Boulder",
+        "level": "Bachelor of Science",
+        "subject": "Computer Science - Web Development Track",
+        "description": "Some description here",
+        "grade": "GPA 3.23",
+        "startDate": "August 2006",
+        "endDate": "May 2010"
       },
       {
-        "place": "example",
-        "type": "example",
-        "description": "example",
-        "grade": "example",
-        "startDate": "example",
-        "endDate": "example"
-      },
-      {
-        "place": "example",
-        "type": "example",
-        "description": "example",
-        "grade": "example",
-        "startDate": "example",
-        "endDate": "example"
-      },
-      {
-        "place": "example",
-        "type": "example",
-        "description": "example",
-        "grade": "example",
-        "startDate": "example",
-        "endDate": "example"
+        "institute": "James Buchanan School",
+        "level": "High School",
+        "subject": "Technology Magnet Program",
+        "description": "Some description here",
+        "grade": "GPA 3.56",
+        "startDate": "August 2002",
+        "endDate": "May 2006"
       }
     ]
   },

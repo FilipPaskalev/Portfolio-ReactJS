@@ -1,30 +1,30 @@
+import Row from 'react-bootstrap/Row';
+//Components
+import EducationHeader from './educationHeader/EducationHeader';
+import EducationCard from './educationCard/EducationCard';
+// Utils
+import DATA from '../../data/sectionsData.json';
+
 const Education = () => {
+  const { title, education } = DATA.educationSection;
+
   return (
     <section className='resume-section' id='education'>
-      <div className='resume-section-content'>
-        <h2 className='mb-5'>Education</h2>
-        <div className='d-flex flex-column flex-md-row justify-content-between mb-5'>
-          <div className='flex-grow-1'>
-            <h3 className='mb-0'>University of Colorado Boulder</h3>
-            <div className='subheading mb-3'>Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
-          </div>
-          <div className='flex-shrink-0'>
-            <span className='text-primary'>August 2006 - May 2010</span>
-          </div>
-        </div>
-        <div className='d-flex flex-column flex-md-row justify-content-between'>
-          <div className='flex-grow-1'>
-            <h3 className='mb-0'>James Buchanan High School</h3>
-            <div className='subheading mb-3'>Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div className='flex-shrink-0'>
-            <span className='text-primary'>August 2002 - May 2006</span>
-          </div>
-        </div>
-      </div>
+      <Row className='resume-section-content'>
+        <EducationHeader title={title} />
+        {education.map((education, index) => (
+          <EducationCard
+            key={index}
+            institute={education.institute}
+            level={education.level}
+            subject={education.subject}
+            description={education.description}
+            grade={education.grade}
+            startDate={education.startDate}
+            endDate={education.endDate}
+          />
+        ))}
+      </Row>
     </section>
   );
 };

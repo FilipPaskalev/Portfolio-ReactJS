@@ -1,7 +1,7 @@
 // Components
 import Navigation from './components/navigation/Navigation';
 import AboutMe from './components/aboutMe/AboutMe';
-import MyExperience from './components/MyExperience/MyExperience';
+import MyExperience from './components/myExperience/MyExperience';
 import Education from './components/education/Education';
 import Skills from './components/skills/Skills';
 import Interests from './components/interests/Interests';
