@@ -9,7 +9,7 @@ import Awards from './components/awards/Awards';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navigation />
       <AboutMe />
       <Experience />
@@ -17,7 +17,7 @@ const App = () => {
       <Skills />
       <Interests />
       <Awards />
-    </div>
+    </>
   );
 };
 
