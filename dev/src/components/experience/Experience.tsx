@@ -1,19 +1,16 @@
 // React Bootstrap
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Styles
-import '../../../global-styles.css';
+// import '../../../global-styles.css';
 import './experience.css';
 
 const Experience = () => {
   return (
     <section className='resume-section' id='experience'>
-      <Container>
+      <div className='resume-section-content'>
         <h2 className='mb-5'>Experience</h2>
-        <Row className='mb-5'>
-          <Col md={8}>
+        <div className='d-flex flex-column flex-md-row justify-content-between mb-5'>
+          <div className='flex-grow-1'>
             <h3 className='mb-0'>Senior Web Developer</h3>
             <div className='subheading mb-3'>Intelitec Solutions</div>
             <p>
@@ -22,13 +19,13 @@ const Experience = () => {
               the runway heading towards a streamlined cloud solution. User generated content in
               real-time will have multiple touchpoints for offshoring.
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className='flex-shrink-0'>
             <span className='text-primary'>March 2013 - Present</span>
-          </Col>
-        </Row>
-        <Row className='mb-5'>
-          <Col md={8}>
+          </div>
+        </div>
+        <div className='d-flex flex-column flex-md-row justify-content-between mb-5'>
+          <div className='flex-grow-1'>
             <h3 className='mb-0'>Web Developer</h3>
             <div className='subheading mb-3'>Intelitec Solutions</div>
             <p>
@@ -37,13 +34,13 @@ const Experience = () => {
               Nanotechnology immersion along the information highway will close the loop on
               focusing solely on the bottom line.
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className='flex-shrink-0'>
             <span className='text-primary'>December 2011 - March 2013</span>
-          </Col>
-        </Row>
-        <Row className='mb-5'>
-          <Col md={8}>
+          </div>
+        </div>
+        <div className='d-flex flex-column flex-md-row justify-content-between mb-5'>
+          <div className='flex-grow-1'>
             <h3 className='mb-0'>Junior Web Designer</h3>
             <div className='subheading mb-3'>Shout! Media Productions</div>
             <p>
@@ -52,13 +49,13 @@ const Experience = () => {
               tail. Keeping your eye on the ball while performing a deep dive on the start-up
               mentality to derive convergence on cross-platform integration.
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className='flex-shrink-0'>
             <span className='text-primary'>July 2010 - December 2011</span>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={8}>
+          </div>
+        </div>
+        <div className='d-flex flex-column flex-md-row justify-content-between'>
+          <div className='flex-grow-1'>
             <h3 className='mb-0'>Web Design Intern</h3>
             <div className='subheading mb-3'>Shout! Media Productions</div>
             <p>
@@ -66,12 +63,12 @@ const Experience = () => {
               Dynamically procrastinate B2C users after installed base benefits. Dramatically
               visualize customer directed convergence without revolutionary ROI.
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className='flex-shrink-0'>
             <span className='text-primary'>September 2008 - June 2010</span>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
