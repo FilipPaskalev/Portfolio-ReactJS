@@ -1,10 +1,10 @@
 // React Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Styles
-// import '../../../global-styles.css';
-import './experience.css';
+import '../../../global-styles.css';
+import './my-experience.css';
 
-const Experience = () => {
+const MyExperience = () => {
   return (
     <section className='resume-section' id='experience'>
       <div className='resume-section-content'>
@@ -73,4 +73,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default MyExperience;

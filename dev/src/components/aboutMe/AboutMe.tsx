@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Styles
 // import '../../../global-styles.css';
-import './about.css';
+import './about-me.css';
 // Components
 import Header from './header/Header';
 import SubHeader from './subHeader/SubHeader';
