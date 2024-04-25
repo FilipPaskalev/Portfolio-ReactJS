@@ -50,8 +50,8 @@
   },
 
   "experienceSection": {
-    "header": "Experience",
-    "experience": [
+    "title": "experience",
+    "jobs": [
       {
         "jobTitle": "Senior Web Developer",
         "company": "Intelitec Solutions",
