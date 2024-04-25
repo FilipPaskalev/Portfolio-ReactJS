@@ -84,12 +84,72 @@
   },
 
   "educationSection": {
-    "title": "Education"
+    "title": "Education",
+    "education": [
+      {
+        "place": "example",
+        "type": "example",
+        "description": "example",
+        "grade": "example",
+        "startDate": "example",
+        "endDate": "example"
+      },
+      {
+        "place": "example",
+        "type": "example",
+        "description": "example",
+        "grade": "example",
+        "startDate": "example",
+        "endDate": "example"
+      },
+      {
+        "place": "example",
+        "type": "example",
+        "description": "example",
+        "grade": "example",
+        "startDate": "example",
+        "endDate": "example"
+      },
+      {
+        "place": "example",
+        "type": "example",
+        "description": "example",
+        "grade": "example",
+        "startDate": "example",
+        "endDate": "example"
+      }
+    ]
   },
 
   "skillsSection": {
     "title": "Skills",
-    "subtitle": ["Languages", "Libraries", "Frameworks", "Tools", "Workflow"]
+    "subtitle": ["Languages", "Libraries", "Frameworks", "Tools", "Workflow"],
+    "skills": {
+      "languages": ["HTML", "JavaScript", "TypeScript", "CSS", "SQL", "Java"],
+      "libraries": ["ReactJs", "React Native", "Bootstrap", "React Bootstrap"],
+      "frameworks": ["Express.js", "Jest", "JQuery", "Vite"],
+      "tools": [
+        "VS Code",
+        "IntelliJ IDEA",
+        "Node.js",
+        "npm",
+        "Git",
+        "Netlify",
+        "GitHub",
+        "GitHub Pages"
+      ],
+      "workflow": [
+        "Mobile-First",
+        "Responsive Design",
+        "Cross Browser Testing & Debugging",
+        "Cross Functional Teams",
+        "Agile Development & Scrum",
+        "Continuous Integration",
+        "Test-Driven Development",
+        "Behavior-driven development",
+        "Pair Programming"
+      ]
+    }
   },
 
   "interestSection": {
@@ -98,14 +158,62 @@
   },
 
   "awardsSection": {
-    "title": "Awards"
+    "title": "Awards",
+    "awards": [
+      {
+        "title": "1stPlace",
+        "type": "Emerging Tech Competition",
+        "year": "2009",
+        "issuer": "University of Colorado Boulder"
+      },
+      {
+        "title": "3rdPlace",
+        "type": "Hackathon",
+        "year": "2005",
+        "issuer": "James Buchanan High School"
+      }
+    ]
   },
 
   "certificatesSection": {
-    "title": "Certificates"
+    "title": "Certificates",
+    "certificates": [
+      {
+        "title": "Google Analytics Certified Developer",
+        "year": "",
+        "issuer": "Google Certification"
+      },
+      {
+        "title": "Mobile Web Specialist",
+        "year": "",
+        "issuer": "Google Certification"
+      },
+      {
+        "title": "example",
+        "year": "example",
+        "issuer": "example"
+      }
+    ]
   },
 
   "recognitionsSection": {
-    "title": "Recognitions"
+    "title": "Recognitions",
+    "recognitions": [
+      {
+        "title": "example",
+        "year": "example",
+        "issuer": "example"
+      },
+      {
+        "title": "example",
+        "year": "example",
+        "issuer": "example"
+      },
+      {
+        "title": "example",
+        "year": "example",
+        "issuer": "example"
+      }
+    ]
   }
 }

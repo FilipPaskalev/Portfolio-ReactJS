@@ -9,11 +9,10 @@ import './navigation.css';
 // Utils
 import userInfo from '../../data/userInfo.json';
 import avatar from '../../assets/avatar.png';
-import TypeUserInfo from '../../types/TypeUserInfo';
 import EnumBootstrapBreakpoints from '../../enums/EnumBootstrapBreakpoints';
 
 const Navigation = () => {
-  const { firstName, lastName } = userInfo as TypeUserInfo;
+  const { firstName, lastName } = userInfo;
   const [expanded, setExpanded] = useState(false);
   const isSmallerThanLG = window.innerWidth < EnumBootstrapBreakpoints.LG;
 
