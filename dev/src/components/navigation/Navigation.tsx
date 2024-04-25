@@ -31,6 +31,7 @@ const Navigation = () => {
       alt='profile avatar'
     />
   );
+
   return (
     <Navbar
       expand='md'
