@@ -9,6 +9,7 @@ import '../../../global-styles.css';
 import './my-experience.css';
 // Utils
 import DATA from '../../data/sectionsData.json';
+import SectionTitle from '../sectionTitle/SectionTitle';
 
 const MyExperience = () => {
   const { title, jobs } = DATA.experienceSection;
@@ -16,7 +17,7 @@ const MyExperience = () => {
   return (
     <section className='resume-section' id='experience'>
       <Row className='resume-section-content'>
-        <MyExperienceHeader title={title} />
+        <SectionTitle title={title} />
         {jobs.map((job, index) => (
           <JobCard
             key={index}
