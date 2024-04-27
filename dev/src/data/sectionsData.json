@@ -109,32 +109,81 @@
 
   "skillsSection": {
     "title": "Skills",
-    "subtitle": ["Languages", "Libraries", "Frameworks", "Tools", "Workflow"],
-    "skills": {
-      "languages": ["HTML", "JavaScript", "TypeScript", "CSS", "SQL", "Java"],
-      "libraries": ["ReactJs", "React Native", "Bootstrap", "React Bootstrap"],
-      "frameworks": ["Express.js", "Jest", "JQuery", "Vite"],
-      "tools": [
-        "VS Code",
-        "IntelliJ IDEA",
-        "Node.js",
-        "npm",
-        "Git",
-        "Netlify",
-        "GitHub",
-        "GitHub Pages"
-      ],
-      "workflow": [
-        "Mobile-First",
-        "Responsive Design",
-        "Cross Browser Testing & Debugging",
-        "Cross Functional Teams",
-        "Agile Development & Scrum",
-        "Continuous Integration",
-        "Test-Driven Development",
-        "Behavior-driven development",
-        "Pair Programming"
-      ]
+    "subSections": {
+      "programmingLangTools": {
+        "title": "Programming Languages & Tools",
+        "list": [
+          {
+            "title": "HTML 5",
+            "style": "fab fa-html5",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+          },
+          {
+            "title": "CSS 3",
+            "style": "fab fa-css3-alt",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            "title": "JavaScript",
+            "style": "fab fa-js-square",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          },
+          {
+            "title": "Angular",
+            "style": "fab fa-angular",
+            "href": "https://angular.io/"
+          },
+          {
+            "title": "React",
+            "style": "fab fa-react",
+            "href": "https://reactjs.org/"
+          },
+          {
+            "title": "Node.js",
+            "style": "fab fa-node-js",
+            "href": "https://nodejs.org/"
+          },
+          {
+            "title": "Sass",
+            "style": "fab fa-sass",
+            "href": "https://sass-lang.com/"
+          },
+          {
+            "title": "Less",
+            "style": "fab fa-less",
+            "href": "http://lesscss.org/"
+          },
+          {
+            "title": "WordPress",
+            "style": "fab fa-wordpress",
+            "href": "https://wordpress.org/"
+          },
+          {
+            "title": "Gulp",
+            "style": "fab fa-gulp",
+            "href": "https://gulpjs.com/"
+          },
+          {
+            "title": "Grunt",
+            "style": "fab fa-grunt",
+            "href": "https://gruntjs.com/"
+          },
+          {
+            "title": "npm",
+            "style": "fab fa-npm",
+            "href": "https://www.npmjs.com/"
+          }
+        ]
+      },
+      "workflow": {
+        "title": "Workflow",
+        "list": [
+          "Mobile-First, Responsive Design",
+          "Cross Browser Testing & Debugging",
+          "Cross Functional Teams",
+          "Agile Development & Scrum"
+        ]
+      }
     }
   },
 

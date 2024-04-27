@@ -23,6 +23,7 @@ const Footer = (props: IFooterProps) => {
           data-bs-placement='top'
           title={icon.text}
           className='social-icon'
+          // REFACTOR target to be hardcoded - not taken from JSON, or props
           target={icon.target}>
           <i className={icon.icon}></i>
         </a>
