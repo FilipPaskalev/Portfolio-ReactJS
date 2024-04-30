@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-type Props = {};
+type HomePageProps = {};
 
-export const HomePage = (props: Props) => {
+export const HomePage = (props: HomePageProps) => {
   return (
     <>
       <h1>Home page</h1>

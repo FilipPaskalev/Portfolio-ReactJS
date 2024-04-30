@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-type Props = {};
+type ErrorPageProps = {};
 
-export const ErrorPage = (props: Props) => {
+export const ErrorPage = (props: ErrorPageProps) => {
   return (
     <>
       <h2>Error page</h2>

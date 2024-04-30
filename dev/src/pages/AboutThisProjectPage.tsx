@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-type Props = {};
+type AboutTisPageProps = {};
 
-export const AboutThisProjectPage = (props: Props) => {
+export const AboutThisProjectPage = (props: AboutTisPageProps) => {
   return (
     <>
       <h2>About this project</h2>
