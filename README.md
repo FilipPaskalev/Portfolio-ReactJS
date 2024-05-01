@@ -141,7 +141,6 @@ npm install
 | Recourse
 | Recourse |
 
-
 ### Articles
 
 | [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
@@ -149,6 +148,15 @@ npm install
 | [Awesome React Bootstrap Component](https://github.com/Hermanya/awesome-react-bootstrap-components)
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
 | Recourse |
+
+### Others
+
+| [Icons8 - Free Icons](https://icons8.com/icons)
+| Website
+| Recourse
+| Website
+| Recourse
+| Recourse
 
 ## About
 <!-- TODO write something for about section-->
@@ -186,9 +194,8 @@ npm install
 ### MIT
 <!-- TODO -->
 
-### FLATICON
-
-You can find the license of the icon here: [TODO - link](add link here). License number ```license-145738580-1253797```
+### icons8
+<a target="_blank" href="https://icons8.com/icon/iEcO79LNDIgV/connect">Connect</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ### Copyright
 
