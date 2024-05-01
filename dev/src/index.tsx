@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // Global styles
-import "./index.css";
+import "./styles.scss";
 // Pages
-import { HomePage } from "./pages/HomePage";
-import { AboutThisProjectPage } from "./pages/AboutThisProjectPage";
-import { ErrorPage } from "./pages/ErrorPage";
+import { HomePage } from "./pages/home";
+import { AboutThisProjectPage } from "./pages/about";
+import { ErrorPage } from "./pages/error";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

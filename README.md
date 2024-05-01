@@ -133,11 +133,11 @@ npm install
 | Recourse
 | Recourse |
 
-### HTML
+### HTML / CSS / SASS
 
 | [footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 | [address](https://www.codecademy.com/resources/docs/html/semantic-html/address)
-| Recourse
+| [Adding a Sass Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
 | Recourse
 | Recourse |
 
@@ -147,6 +147,14 @@ npm install
 | [How to format international telephone numbers](https://www.cm.com/en-gb/blog/how-to-format-international-telephone-numbers/#:~:text=The%20UK%20mobile%20phone%20number,all%20characters%20should%20be%20numeric.)
 | [Awesome React Bootstrap Component](https://github.com/Hermanya/awesome-react-bootstrap-components)
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
+| [How to use Bootstrap 5 in React.js](https://coreui.io/blog/bootstrap-react-tutorial-with-examples/)
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
 | Recourse |
 
 ### Others

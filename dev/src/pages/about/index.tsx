@@ -1,8 +1,7 @@
+import "./styles.scss";
 import { Link } from "react-router-dom";
 
-type AboutTisPageProps = {};
-
-export const AboutThisProjectPage = (props: AboutTisPageProps) => {
+export const AboutThisProjectPage = () => {
   return (
     <>
       <h2>About this project</h2>
