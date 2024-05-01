@@ -1,0 +1,50 @@
+/* home-page.scss */
+
+.resume-section {
+  padding: 20px;
+  text-align: center;
+
+  @media (min-width: 576px) {
+    text-align: left;
+  }
+}
+
+.resume-section-content {
+  @media (min-width: 576px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  @media (min-width: 576px) {
+    justify-content: flex-start;
+  }
+}
+
+.social-footer {
+  // position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Add your desired background color */
+  padding: 10px;
+  text-align: center;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icon {
+  margin-right: 10px;
+  color: #212529; /* Add your desired icon color */
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}

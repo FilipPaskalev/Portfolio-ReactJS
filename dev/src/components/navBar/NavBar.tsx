@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./nav-bar-styles.scss";
+import EPagePaths from "../../enum/EPagePaths";
 
 const BRAND_NAME = "</>";
 
@@ -30,7 +31,7 @@ const NavBar = () => {
       <div className="container-fluid">
         <Link
           className="navbar-brand"
-          to="/"
+          to={EPagePaths.HOME}
           onClick={() => setIsMenuOpen(false)}
         >
           {BRAND_NAME}
@@ -45,16 +46,15 @@ const NavBar = () => {
         <div
           ref={menuRef}
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
-          id="navbarSupportedContent"
         >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to={EPagePaths.HOME}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about-this-project">
+              <Link className="nav-link" to={EPagePaths.ABOUT_THIS_PROJECT}>
                 About
               </Link>
             </li>

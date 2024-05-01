@@ -10,15 +10,16 @@ import "./styles.scss";
 import HomePage from "./pages/home/HomePage";
 import AboutThisProjectPage from "./pages/about/AboutThisProjectPage";
 import ErrorPage from "./pages/error/ErrorPage";
+import EPagePaths from "./enum/EPagePaths";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: EPagePaths.HOME,
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/about-this-project",
+    path: EPagePaths.ABOUT_THIS_PROJECT,
     element: <AboutThisProjectPage />,
     errorElement: <ErrorPage />,
   },

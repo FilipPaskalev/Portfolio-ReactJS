@@ -1,4 +1,4 @@
-export enum EGridBreakpoints {
+enum EGridBreakpoints {
   XS = 0,
   SM = 576,
   MD = 768,
@@ -6,3 +6,5 @@ export enum EGridBreakpoints {
   XL = 1200,
   XXL = 1400,
 }
+
+export default EGridBreakpoints;

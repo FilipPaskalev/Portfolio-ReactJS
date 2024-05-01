@@ -1,5 +1,6 @@
 import { useRouteError } from "react-router-dom";
 import { Link } from "react-router-dom";
+import EPagePaths from "../../enum/EPagePaths";
 
 const ErrorPage = () => {
   const error = useRouteError();
@@ -17,7 +18,7 @@ const ErrorPage = () => {
         </i>
       </p>
       <button className="btn btn-primary">
-        <Link to="/" className="text-white text-decoration-none">
+        <Link to={EPagePaths.HOME} className="text-white text-decoration-none">
           Go Home
         </Link>
       </button>
