@@ -1,8 +1,7 @@
+import "./styles.scss";
 import { Link } from "react-router-dom";
 
-type ErrorPageProps = {};
-
-export const ErrorPage = (props: ErrorPageProps) => {
+export const ErrorPage = () => {
   return (
     <>
       <h2>Error page</h2>
