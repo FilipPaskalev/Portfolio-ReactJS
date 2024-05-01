@@ -115,7 +115,7 @@ npm install
 | [React Bootstrap Project on GitHub](https://github.com/react-bootstrap/react-bootstrap)
 | [React Router Bootstrap](https://www.npmjs.com/package/react-router-bootstrap)
 | [Bootstrap Icons](https://icons.getbootstrap.com/#install)
-| Recourse
+| [React-Bootstrap Layout Components](https://www.youtube.com/watch?v=RaFN1KU6cDU)
 | Recourse
 | Recourse
 | Recourse
