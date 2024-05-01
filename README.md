@@ -1,6 +1,10 @@
 # Portfolio
-
-<!-- TODO add three -->
+<!-- TODO 
+Summarize the project
+To begin writing a project description, many project managers decide to provide a brief summary of their proposed project. 
+Consider including a description of your project's goals and what you want the project to accomplish. 
+It's often beneficial to keep the introduction brief by limiting it to one paragraph, which eliminates wordiness and possible confusion. 
+-->
 
 
 ## Setting up the project
@@ -148,7 +152,7 @@ npm install
 | [Awesome React Bootstrap Component](https://github.com/Hermanya/awesome-react-bootstrap-components)
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
 | [How to use Bootstrap 5 in React.js](https://coreui.io/blog/bootstrap-react-tutorial-with-examples/)
-| Recourse
+| [Bootstrap 5 sidebar examples](https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb)
 | Recourse
 | Recourse
 | Recourse
@@ -167,17 +171,39 @@ npm install
 | Recourse
 
 ## About
-<!-- TODO write something for about section-->
+<!-- TODO write something for about section
+Define the purpose
+The next part of an effective project description is to describe your intentions for creating the project. Try to define the purpose of your project and the problem it addresses by describing how the project affects the success of the organization for which you work. Some project managers may decide to explain how the project meets one of their company's business goals, which may entice stakeholders or sponsors.
+
+Describe your goals
+It's also important to describe the desired goals of your project that you hope to achieve after its successful completion. Try to make these specific and relevant to the project's content by including measurable and achievable goals that allow you to track your team's progress. It can be helpful to identify the way in which you plan to measure the success of the project's deliverables. Consider establishing a deadline for each goal, listing these in the project description and recording the potential benefits upon completion of the project's goals.
+
+Identify possible limitations
+Another helpful step that allows you to establish contingency plans is describing the limits of your project based on the needs and expectations of its stakeholders. This can help you prepare for and navigate potentials problems that arise. A project's limitations might change throughout each of its phases, so it's important to adjust this section as needed throughout.
+
+Determine your approach
+For this section, you might collaborate with your team to determine how you want to approach the project. After accomplishing this, try to select, approve and describe an effective method for completing the work that the project requires. Consider dividing the project into phases and describing any technologies or techniques that can help you complete each step.
+
+-->
+
+## Feedback
+
+<!-- TODO 
+Ask for feedback
+After writing a draft of your project description, consider asking a team member or manager to review it. They may discover specific areas of improvement or provide general feedback on the entire document. You can also present the project description to certain stakeholders and ask them to describe the project in their own words. This can help you determine whether your summary of the project is clear and accurate.
+-->
+
+## Changelog
 
 ### Version 1.0.0
 
 #### Information
 - Initial version and release
 - Add TypeScript to the project
-- Add React Bootstrap to the project
+- Add Bootstrap to the project
 - Refactor the project to Bootstrap 5
 
-#### About Me section (page)
+#### About Me section (Home page)
 - Refactor the About section in components
 - Received the data for the section from JSON file in main component
 - All received data has Types and Interfaces

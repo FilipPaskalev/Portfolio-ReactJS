@@ -2,31 +2,31 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./nav-bar-styles.scss";
 
-const BRAND_NAME = "Your Brand";
+const BRAND_NAME = "</>";
 
-export const NavBar = () => {
+const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const menuRef = useRef(null);
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleOutsideClick = (event) => {
-    if (menuRef.current && !menuRef.current.contains(event.target)) {
-      setIsMenuOpen(false);
-    }
-  };
-
   useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    };
+
     document.addEventListener("mousedown", handleOutsideClick);
     return () => {
       document.removeEventListener("mousedown", handleOutsideClick);
     };
-  }, []);
+  }, [menuRef]);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link
           className="navbar-brand"
@@ -35,7 +35,11 @@ export const NavBar = () => {
         >
           {BRAND_NAME}
         </Link>
-        <button className="navbar-toggler" type="button" onClick={toggleMenu}>
+        <button
+          className="navbar-toggler d-lg-none"
+          type="button"
+          onClick={toggleMenu}
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
@@ -60,3 +64,5 @@ export const NavBar = () => {
     </nav>
   );
 };
+
+export default NavBar;

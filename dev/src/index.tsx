@@ -1,21 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 // Global styles
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
+
 // Pages
-import { HomePage } from "./pages/home";
-import { AboutThisProjectPage } from "./pages/about";
-import { ErrorPage } from "./pages/error";
+import HomePage from "./pages/home/HomePage";
+import AboutThisProjectPage from "./pages/about/AboutThisProjectPage";
+import ErrorPage from "./pages/error/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/about-this-project",
+    element: <AboutThisProjectPage />,
+    errorElement: <ErrorPage />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about-this-project" element={<AboutThisProjectPage />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );
