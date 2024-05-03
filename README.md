@@ -124,14 +124,13 @@ npm install
 | Recourse
 | Recourse
 | Recourse
-| Recourse
 | Recourse |
 
 ### TypeScript
 
 | [Typing Component Props](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
 | [Typing defaultProps](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/default_props)
-| Recourse
+| [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
 | Recourse
 | Recourse
 | Recourse
@@ -153,18 +152,18 @@ npm install
 | [React Bootstrap VS Bootstrap](https://www.linkedin.com/pulse/react-bootstrap-vs-bootsrap-comparison-nitsan-cohen/?trackingId=0s24d1NLzZv4HsIOHl90BQ%3D%3D)
 | [How to use Bootstrap 5 in React.js](https://coreui.io/blog/bootstrap-react-tutorial-with-examples/)
 | [Bootstrap 5 sidebar examples](https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb)
-| Recourse
-| Recourse
-| Recourse
-| Recourse
+| [Building a Custom Hook to Detect User Device in React.js 🚀](https://medium.com/@josephat94/building-a-custom-hook-to-detect-user-device-in-react-js-e4dd6e0d2d9c)
+| [S.Leschev: React Custom Hooks](https://github.com/sergeyleschev/react-custom-hooks)
+| [React Js — 8 best practices + Folder Structure](https://medium.com/@kthamodaran/react-8-best-practices-folder-structure-5dbda48a69e)
+| [How To Structure React Projects From Beginner To Advanced](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
 | Recourse
 | Recourse
 | Recourse |
 
-### Others
+### Others resources
 
 | [Icons8 - Free Icons](https://icons8.com/icons)
-| Website
+| [reactstrap](https://github.com/reactstrap/reactstrap)
 | Recourse
 | Website
 | Recourse
