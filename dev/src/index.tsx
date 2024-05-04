@@ -6,11 +6,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
 
+// Enumerations
+import EPagePaths from "./enum/EPagePaths";
+
 // Pages
 import HomePage from "./pages/home/HomePage";
 import AboutThisProjectPage from "./pages/about/AboutThisProjectPage";
 import ErrorPage from "./pages/error/ErrorPage";
-import EPagePaths from "./enum/EPagePaths";
 
 const router = createBrowserRouter([
   {

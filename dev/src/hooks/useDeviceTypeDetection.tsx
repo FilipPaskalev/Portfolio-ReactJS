@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useDeviceDetection = () => {
+const useDeviceTypeDetection = () => {
   const [device, setDevice] = useState("");
 
   useEffect(() => {
@@ -31,4 +31,4 @@ const useDeviceDetection = () => {
   return device;
 };
 
-export default useDeviceDetection;
+export default useDeviceTypeDetection;

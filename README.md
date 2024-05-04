@@ -144,6 +144,30 @@ npm install
 | Recourse
 | Recourse |
 
+### Tutorials
+
+#### React Bootstrap
+
+- [React Bootstrap Tutorial](https://www.youtube.com/watch?v=8pKjULHzs0s)
+- [UiBrains Technologies - React Bootstrap Crash Course](https://www.youtube.com/watch?v=0SIuH7yHCpA&t=1396s)
+
+- Recourse
+- Recourse
+- Recourse
+- Recourse
+
+#### Bootstrap
+
+- [Bootstrap 5 Crash Course](https://www.youtube.com/watch?v=Jyvffr3aCp0&t=84s)
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse
+| Recourse |
+
 ### Articles
 
 | [How to Create a Personal Portfolio Page [Step-by-Step]](https://blog.hubspot.com/website/html-projects-personal-portfolio)
@@ -156,6 +180,12 @@ npm install
 | [S.Leschev: React Custom Hooks](https://github.com/sergeyleschev/react-custom-hooks)
 | [React Js — 8 best practices + Folder Structure](https://medium.com/@kthamodaran/react-8-best-practices-folder-structure-5dbda48a69e)
 | [How To Structure React Projects From Beginner To Advanced](https://blog.webdevsimplified.com/2022-07/react-folder-structure/)
+| [Types of Navigation - 5 Most Used Navigation Style](https://www.youtube.com/watch?v=ci3ysyOBMGI)
+| [Building a Simple React Hook to Detect Screen Size](https://medium.com/@josephat94/building-a-simple-react-hook-to-detect-screen-size-404a867fa2d2)
+| [Fontawesome Icons styling](https://docs.fontawesome.com/web/use-with/react/style)
+| Recourse
+| Recourse
+| Recourse
 | Recourse
 | Recourse
 | Recourse |
@@ -164,8 +194,14 @@ npm install
 
 | [Icons8 - Free Icons](https://icons8.com/icons)
 | [reactstrap](https://github.com/reactstrap/reactstrap)
+| [Bootstrap Glyphicons](https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp)
+| [Font Awesome 5 icons](https://www.w3schools.com/icons/fontawesome5_intro.asp)
+| [fontawesome](https://fontawesome.com/)
+| [Implement typing animation](https://blog.logrocket.com/3-ways-implement-typing-animation-react/)
+| [react-bootstrap-icons](https://www.npmjs.com/package/react-bootstrap-icons)
 | Recourse
-| Website
+| Recourse
+| Recourse
 | Recourse
 | Recourse
 
