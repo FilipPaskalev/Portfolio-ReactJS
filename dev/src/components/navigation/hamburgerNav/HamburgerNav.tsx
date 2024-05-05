@@ -21,10 +21,10 @@ import EPagePaths from "../../../enum/EPagePaths";
 // Styles
 import "./hamburger-nav-styles.sass";
 type Props = {
-  msg: string[];
+  message?: string[];
 };
 
-const HamburgerNav = ({ msg }: Props) => {
+const HamburgerNav = ({ message }: Props) => {
   const offcanvasHeaderTitle: string = "Menu";
 
   const [show, setShow] = useState(false);
@@ -39,7 +39,7 @@ const HamburgerNav = ({ msg }: Props) => {
           <Navbar.Brand>
             <Terminal />{" "}
             <ReactTyped
-              strings={msg}
+              strings={message}
               typeSpeed={80}
               backSpeed={40}
               cursorChar="_"
@@ -56,7 +56,7 @@ const HamburgerNav = ({ msg }: Props) => {
           <Offcanvas.Title>{offcanvasHeaderTitle}</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Container>
+          <Navbar.Text>
             <Row className="mb-2">
               <Col>
                 <FontAwesomeIcon icon="house" />{" "}
@@ -69,7 +69,7 @@ const HamburgerNav = ({ msg }: Props) => {
                 <Link to={EPagePaths.ABOUT_THIS_PROJECT}>About</Link>
               </Col>
             </Row>
-          </Container>
+          </Navbar.Text>
         </Offcanvas.Body>
       </Offcanvas>
     </>
