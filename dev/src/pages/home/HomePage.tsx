@@ -136,10 +136,10 @@ const HomePage = () => {
                 </Col>
               </Row>
             </Container>
-            <Copyright name="My name goes here" year={2024} />
           </section>
         </Col>
       </Row>
+      <Copyright name="My name goes here" year={2024} />
     </Container>
   );
 };
