@@ -3,11 +3,21 @@ import "./home-page.scss";
 // Custom components
 import Navigation from "../../components/navigation/Navigation";
 // React Bootstrap Icons
-import * as Icon from "react-bootstrap-icons";
+import {
+  Envelope,
+  GeoAltFill,
+  Phone,
+  Linkedin,
+  Github,
+  Discord,
+  Facebook,
+} from "react-bootstrap-icons";
+
 // React Bootstrap components
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Copyright from "../../components/copyright/Copyright";
 
 type TAddress = {
   street: string;
@@ -61,7 +71,7 @@ const HomePage = () => {
           </h1>
           <address className="mb-5">
             <Col className="mb-1">
-              <Icon.GeoAltFill size={20} color="primary" />
+              <GeoAltFill size={20} color="primary" />
               {"  "}
               {address.street}
               {" · "}
@@ -70,12 +80,12 @@ const HomePage = () => {
               {address.state} {address.zip}
             </Col>
             <Col>
-              <Icon.Phone size={20} color="primary" />
+              <Phone size={20} color="primary" />
               {"  "}
               <a href={`tel:${phoneNumber.plain}`}>{phoneNumber.masked}</a>
             </Col>
             <Col>
-              <Icon.Envelope size={20} color="primary" />
+              <Envelope size={20} color="primary" />
               {"  "}
               <a href={`mailto:${email}`}>{email}</a>
             </Col>
@@ -91,56 +101,42 @@ const HomePage = () => {
               duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
               duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
               duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
+              duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
+              duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
+              duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
+              duis ipsum id. Amet occaecat amet dolor do. Sit do do amet aliquip
             </p>
-            <footer className="text-center mt-4 fixed-bottom">
-              <Container className="mx-auto">
-                <Row className="justify-content-center">
-                  <Col>
-                    <a
-                      href={socialLinks.linkedIn}
-                      target="_blank"
-                      className="mx-2"
-                    >
-                      <Icon.Linkedin
-                        size={38}
-                        title="LinkedIn"
-                        color="primary"
-                      />
-                    </a>
-                    <a
-                      href={socialLinks.gitHub}
-                      target="_blank"
-                      className="mx-2"
-                    >
-                      <Icon.Github size={38} title="GitHub" color="primary" />
-                    </a>
-                    <a
-                      href={socialLinks.discord}
-                      target="_blank"
-                      className="mx-2"
-                    >
-                      <Icon.Discord size={38} title="Discord" color="primary" />
-                    </a>
-                    <a
-                      href={socialLinks.facebook}
-                      target="_blank"
-                      className="mx-2"
-                    >
-                      <Icon.Facebook
-                        size={38}
-                        title="Facebook"
-                        color="primary"
-                      />
-                    </a>
-                  </Col>
-                </Row>
-                <Row className="justify-content-center mt-4">
-                  <p className="text-muted">
-                    &copy; {new Date().getFullYear()} {firstName} {lastName}
-                  </p>
-                </Row>
-              </Container>
-            </footer>
+            <Container className="mx-auto text-center mt-5 ">
+              <Row className="justify-content-center">
+                <Col>
+                  <a
+                    href={socialLinks.linkedIn}
+                    target="_blank"
+                    className="mx-2"
+                  >
+                    <Linkedin size={38} title="LinkedIn" color="primary" />
+                  </a>
+                  <a href={socialLinks.gitHub} target="_blank" className="mx-2">
+                    <Github size={38} title="GitHub" color="primary" />
+                  </a>
+                  <a
+                    href={socialLinks.discord}
+                    target="_blank"
+                    className="mx-2"
+                  >
+                    <Discord size={38} title="Discord" color="primary" />
+                  </a>
+                  <a
+                    href={socialLinks.facebook}
+                    target="_blank"
+                    className="mx-2"
+                  >
+                    <Facebook size={38} title="Facebook" color="primary" />
+                  </a>
+                </Col>
+              </Row>
+            </Container>
+            <Copyright name="My name goes here" year={2024} />
           </section>
         </Col>
       </Row>
