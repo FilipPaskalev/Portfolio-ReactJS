@@ -11,8 +11,9 @@ import EPagePaths from "./enum/EPagePaths";
 
 // Pages
 import HomePage from "./pages/home/HomePage";
-import AboutThisProjectPage from "./pages/about/AboutThisProjectPage";
+import AboutThisProjectPage from "./pages/aboutThisProject/AboutThisProjectPage";
 import ErrorPage from "./pages/error/ErrorPage";
+import AboutMePage from "./pages/aboutMe/AboutMe";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
   {
     path: EPagePaths.ABOUT_THIS_PROJECT,
     element: <AboutThisProjectPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: EPagePaths.ABOUT_ME,
+    element: <AboutMePage />,
     errorElement: <ErrorPage />,
   },
 ]);

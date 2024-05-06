@@ -150,8 +150,7 @@ npm install
 
 - [React Bootstrap Tutorial](https://www.youtube.com/watch?v=8pKjULHzs0s)
 - [UiBrains Technologies - React Bootstrap Crash Course](https://www.youtube.com/watch?v=0SIuH7yHCpA&t=1396s)
-
-- Recourse
+- [Placeholders](https://react-bootstrap.netlify.app/docs/components/placeholder)
 - Recourse
 - Recourse
 - Recourse

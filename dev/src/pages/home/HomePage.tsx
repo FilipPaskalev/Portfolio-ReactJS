@@ -139,7 +139,9 @@ const HomePage = () => {
           </section>
         </Col>
       </Row>
-      <Copyright name="My name goes here" year={2024} />
+      <footer className="d-flex justify-content-center mt-5 mb-1">
+        <Copyright name="My name goes here" year={2024} />
+      </footer>
     </Container>
   );
 };

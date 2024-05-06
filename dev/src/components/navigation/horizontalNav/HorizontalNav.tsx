@@ -33,7 +33,12 @@ const HorizontalNav = ({ message }: Props) => {
                 <Link to={EPagePaths.HOME}>Home</Link>
               </Col>
               <Col>
-                <Link to={EPagePaths.ABOUT_THIS_PROJECT}>About</Link>
+                <Link to={EPagePaths.ABOUT_THIS_PROJECT}>
+                  About the project
+                </Link>
+              </Col>
+              <Col>
+                <Link to={EPagePaths.ABOUT_ME}>About Me</Link>
               </Col>
             </Row>
           </Navbar.Text>

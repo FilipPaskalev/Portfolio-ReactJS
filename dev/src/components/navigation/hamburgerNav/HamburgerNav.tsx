@@ -66,7 +66,15 @@ const HamburgerNav = ({ message }: Props) => {
             <Row className="mb-2">
               <Col>
                 <FontAwesomeIcon icon="info-circle" />{" "}
-                <Link to={EPagePaths.ABOUT_THIS_PROJECT}>About</Link>
+                <Link to={EPagePaths.ABOUT_THIS_PROJECT}>
+                  About this project
+                </Link>
+              </Col>
+            </Row>
+            <Row className="mb-2">
+              <Col>
+                <FontAwesomeIcon icon="info-circle" />{" "}
+                <Link to={EPagePaths.ABOUT_ME}>About Me</Link>
               </Col>
             </Row>
           </Navbar.Text>

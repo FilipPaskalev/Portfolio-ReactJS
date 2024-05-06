@@ -7,6 +7,7 @@ import Navigation from "../../components/navigation/Navigation";
 import AboutSection from "./aboutSection/AboutSection";
 // Styles
 import "./about-this-project-page.scss";
+import Copyright from "../../components/copyright/Copyright";
 
 const AboutThisProjectPage = () => {
   const navMessage: string[] = [
@@ -62,12 +63,9 @@ const AboutThisProjectPage = () => {
         content="Some content here "
         lastUpdateDate={new Date().getTime()}
       />
-      <hr />
 
       <footer className="d-flex justify-content-center mt-5 mb-1">
-        <p className="text-muted">
-          Copyright &copy; {new Date().getFullYear()} Name First Name second
-        </p>
+        <Copyright name="My name goes here" year={2024} />
       </footer>
     </Container>
   );
